@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+header {
+    padding: 1%;
+    background: firebrick;
+    text-align: left;
+    color: black;
+}
+
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
