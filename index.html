@@ -11,37 +11,43 @@
 <body>
     <header>
         <h1>Caleb Plumlee</h1>
-        <nav>
-            <ul> 
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li> 
-                <li><a href="contact">Contact Me</a></li>
-                <li><a href="resume">Resume</a></li>
-            </ul>
+        <nav>            
+                <a href="#about">About Me</a>
+                <a href="#portfolio">Portfolio</a> 
+                <a href="contact">Contact Me</a>
+                <a href="resume">Resume</a>            
         </nav>
     </header>
-
-    <main>
-       <a id="about"><section class="about"></a> 
-             I am currently a student enrolled in SMU's Full-Stack Coding Bootcamp. I'm excited to be
+    <sidebar>
+        <div class="float">
+           <a id="aboutlink"><h1>ABOUT</h1></a>
+           <a id="portfoliolink"><h1>Portfolio</h1></a>
+            <a id="contactlink"></a><h1>contact</h1></a>
+        </div>   
+    </sidebar>
+    <main> 
+        
+        <!-- About -->
+       <a id="about"><div class="about"></a> 
+            <p> I am currently a student enrolled in SMU's Full-Stack Coding Bootcamp. I'm excited to be
              here learning about something I've become extremely passionate about! I'm currently an outside
              sales rep/project manager in the construction industry, and I am taking this course to be able
              to transition into the tech industry.  My interests include Brazilian Jiu-Jitsu, Powerlifting,
-             and Music of all kinds. I am happily married with a beautiful baby girl. 
+             and Music of all kinds. I am happily married with a beautiful baby girl.</p> 
              <a href="https://via.placeholder.com/150.png"><img src="https://via.placeholder.com/150.png"></a>
-        </section>
-        <a id="portfolio"><section class="portfolio"></a>
-            <div class="card"> Weekly Challenge 1 </div>
-            <div class="card"> Coming Soon!</div>
-            <div class="card"> Coming Soon!</div>
-            <div class="card"> Coming Soon!</div>
-        </section>
-        <a id="contact"><section class="contact"></a>
-            <ul>
-                <li id="email"> <b>Email:</b> <a href="mailto:bambini6@gmail.com">bambini6@gmail.com</a> </li>
-                <li id="github"> <b>Github:</b> <a href=github.com/cplumlee72> github.com/cplumlee72</a> </li>
-            </ul>
-        </section>
+            </div>
+        <!-- Portfolio -->
+        <div class="portfolio">
+            <div class="card"><a href="https://via.placeholder.com/150.png"><img src="https://via.placeholder.com/150.png"></a> Weekly Challenge 1 </div>
+            <div class="card"><a href="https://via.placeholder.com/150.png"><img src="https://via.placeholder.com/150.png"></a> Coming Soon!</div>
+            <div class="card"><a href="https://via.placeholder.com/150.png"><img src="https://via.placeholder.com/150.png"></a> Coming Soon!</div>
+            <div class="card"><a href="https://via.placeholder.com/150.png"><img src="https://via.placeholder.com/150.png"></a> Coming Soon!</div>
+        </div>
+        <!-- Contact  -->
+        <div class="contact">            
+                <p id="email"> <b>Email:</b> <a href="mailto:bambini6@gmail.com">bambini6@gmail.com</a> </p>
+                <p id="github"> <b>Github:</b> <a href=github.com/cplumlee72> github.com/cplumlee72</a> </p>           
+        </div>
     </main>
 
     <footer>
