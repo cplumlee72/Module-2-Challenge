@@ -106,6 +106,7 @@ article {
 #aboutimg {
     max-width: 30%;    
     margin: 5px;
+    border-radius: 10px;
 }
 
 
@@ -131,9 +132,6 @@ article {
     font-size: 90%;
 }
 
-.card img {
-    max-width: 70%;
-}
 
 #bigcard {
     display: flex;
@@ -147,7 +145,7 @@ article {
 
 .card a {    
     display: inline-block;
-    min-width: 100%;
+    min-width: 80%;
 }
 
 #bigcard img {
@@ -159,6 +157,9 @@ article {
 .card img {
     border-radius: 10px;
     transition: all -0.5s ease-in-out;
+    max-width: 70%;
+   
+    
 }
 
 
