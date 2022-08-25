@@ -145,10 +145,31 @@ article {
     margin-right: 0%;
 }
 
+.card a {    
+    display: inline-block;
+    min-width: 100%;
+}
+
 #bigcard img {
    max-width: 100%;
    min-width: 80%;
 }
+
+
+.card img {
+    border-radius: 10px;
+    transition: all -0.5s ease-in-out;
+}
+
+
+.card img:hover {
+    border-color: rgb(73 119 167);
+    box-shadow: inset 0px 0px 8px
+    #03a9f4, 0 0 15px
+     #00bcd4;
+}
+
+
 
 .contact {
     display: flex;
