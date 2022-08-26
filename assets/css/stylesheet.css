@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0%;
     display: flex;
     flex-direction: column;
@@ -185,6 +185,10 @@ article {
     text-align: center;
 }
 
+div p {
+    
+    font-size: 1.5vw;
+}
 
 .contact a {
     text-decoration: none;
@@ -205,21 +209,27 @@ footer {
 
 
 @media screen and (max-width: 996px) {
-   
+       
+    
+
+    nav a {
+        font-size: 3vw;
+       
+    }
+
     img {
         max-width: 100%;
         height: auto;
     }
 
-    header {
-        display: flex;
-        flex-flow: row wrap;
-        flex: 1 1 0
+    .card {
+        min-width: 100%;
     }
 
-    nav a {
+   
+    div p {
+    
         font-size: 3vw;
-       
     }
 }
 
@@ -237,21 +247,33 @@ footer {
         font-size: 4vw;
     }
 
-    
+    #bigcard img {
+        min-width: 95vw;
+    }
+
+    .card img {
+       min-width: 85vw;
+    }
 
     nav a {
         font-size: 3vw;
         line-height: 2.5;
     }
    
-    img {
-        max-width: 100%;
-        height: auto;
+   
+
+    #aboutimg {
+        min-width: 65%;
     }
 
     header {
         display: flex;
         flex-flow: row wrap;
         flex: 1 1 0
+    }
+
+    div p {
+    
+        font-size: 5vw;
     }
 }
