@@ -22,3 +22,11 @@ The website should also be responsice to adapt to the viewport of the device tha
 - Click on the links in the Contact Section to send me an e-mail or open a new tab to my Github page.  
 
 ![image of website](./assets/images/readmeimage.gif)
+
+## Credits 
+
+- https://www.w3schools.com/css/css_pseudo_classes.asp
+- https://www.w3schools.com/css/css3_shadows.asp
+- https://www.w3schools.com/css/css3_mediaqueries.asp
+- https://www.w3schools.com/css/css3_flexbox.asp
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
