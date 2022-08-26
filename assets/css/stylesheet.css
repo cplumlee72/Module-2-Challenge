@@ -56,6 +56,30 @@ nav a {
     background-color: rgb(53 68 102);
 }
 
+nav a:hover {
+    color: rgb(73 119 167);
+    text-shadow: inset 1px 0px 8px
+    #03a9f4, 1 0 15px
+     #00bcd4;
+}
+
+nav a:hover {
+    
+    color: #fff;
+    text-align: center;
+    animation: glow .025s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #4977a7, 0 0 5px #4977a7, 0 0 6px #4977a7, 0 0 7px #4977a7, 0 0 8px #4977a7;
+    }
+    
+    to {
+      text-shadow: 0 0 3px #fff, 0 0 4px #f8f8f8, 0 0 5px #4f93cb, 0 0 6px #4f93cb, 0 0 7px #4f93cb, 0 0 8px #4f93cb, 0 0 9px #4f93cb;
+    }
+  }
+
 
 main {
     display: flex;
